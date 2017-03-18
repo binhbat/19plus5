@@ -1,0 +1,11 @@
+---
+layout: page
+title: Phim 19plus 5
+---
+{% include pagi %}
+<div class="text-center">
+{% for p in paginator.posts %}
+  {% include image %}
+{% endfor %}
+</div>
+{% include pagi %}
