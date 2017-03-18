@@ -1,11 +1,4 @@
-<script src="//content.jwplatform.com/libraries/V6NfEzT7.js"></script>
-<div id="myPlayer">&nbsp;</div>
-<script>
-jwplayer('myPlayer').setup({aspectratio:"16:9",width:"100%",
-image:"{{page.thumb}}",
-sources:[{
-file:"{{include.360}}",label:"360p"},{
-file:"{{include.360}}",label:"480p"},{
-file:"{{include.360}}",label:"720p"
-}],});
-</script>
+<video poster="{{page.thumb}}" data-setup="{}" id="player0" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls preload="auto">
+  <source src="{{include.360}}" type='video/mp4' label='360' res='360' />
+  <source src="{{include.480}}" type='video/mp4' label='480' res='480'/>
+  <source src="{{include.720}}" type='video/mp4' label='720' res='720'/></video>
