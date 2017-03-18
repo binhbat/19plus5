@@ -1,1 +1,7 @@
-theme: jekyll-theme-cayman
+name: "SieuTV"
+subline: "fun for free"
+baseurl: "/19plus5"
+asseturl: "/assets"
+permalink: /:categories/:title/
+paginate: 60
+paginate_path: "/page:num"
